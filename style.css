@@ -6,6 +6,7 @@ body{
 -o-background-size: cover;
 background-size: cover;
 background-color: #ffecd2;
+margin: 3px;
 
 }
 
@@ -69,6 +70,10 @@ a{
 .cartao{
 	text-align: center;
 	
+}
+.comentarios{
+	margin: 40px;
+
 }
 
 /*
