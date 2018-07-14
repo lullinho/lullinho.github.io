@@ -1,0 +1,170 @@
+body{
+	background: url(paper.gif) no-repeat center center fixed; 
+	background-color: white;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color: #ffecd2;
+
+}
+
+h1, h4 {
+  text-align: center;
+  alignment-baseline: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 60px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey
+
+}
+
+.card{
+	width: 300px;
+	height: 100%;
+	margin: 10px;
+
+	display: inline-block;
+	align-content: left;
+	text-align: center;
+	float: none;
+	margin-bottom: 5px;
+
+}
+
+
+.card-img-top{
+	
+	object-fit: cover;
+	margin: 14px;
+	width: 80%;
+    height: 80%;
+    display: flex;
+	display: inline-block;
+ 
+
+}
+
+.card-text{
+	text-align: left;
+	margin: 5px;
+}
+
+
+a{
+	margin: 10px;
+}
+.cartao{
+	text-align: center;
+	
+}
+
+/*
+h1{
+	
+	border: 6px dashed white;
+	background-color: pink;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 300%;
+	line-height: 50px;
+	font-family: 'Poiret One', cursive;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	text-align: center;
+	padding: 30px;
+	margin: 20px;
+
+
+}
+
+.titulo{
+	text-align: center;
+}
+
+.foto{
+	max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+
+}
+h1, h4 {
+  text-align: center;
+  alignment-baseline: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 60px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey
+
+}
+
+#titulos{
+	font-size: 30px;
+}
+
+img{
+	height: 650px;
+	align-content: center;
+	text-align: center;
+
+}
+img#callofduty{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.carousel-control-prev-icon{
+	color: red;
+}
+
+#carouselExampleIndicators{
+
+width: 57%;
+margin: auto;
+}
+#carouselExampleIndicators:hover{
+
+width: 57.8%;
+margin: auto;
+}
+#legenda{
+	background-color: red;
+}
+#descLegenda{
+	background-color: black;
+}
+*/
+
