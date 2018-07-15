@@ -72,11 +72,11 @@ a{
 	
 }
 .comentarios{
-margin:5px;
+margin:1px;
 
 }
-
 /*
+
 h1{
 	
 	border: 6px dashed white;
@@ -97,6 +97,7 @@ h1{
 
 
 }
+*/
 
 .titulo{
 	text-align: center;
@@ -135,7 +136,7 @@ h1, h4 {
 	font-size: 30px;
 }
 
-img{
+imgs{
 	height: 650px;
 	align-content: center;
 	text-align: center;
@@ -171,5 +172,5 @@ margin: auto;
 #descLegenda{
 	background-color: black;
 }
-*/
+
 
