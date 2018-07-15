@@ -7,7 +7,7 @@ background-color: #FFEBCD;
 }
 
 .row{
-	margin: 5px;
+	margin: 0.01px;
 }
 
 h1, h4 {
@@ -72,7 +72,7 @@ a{
 	
 }
 .comentarios{
-	margin: 40px;
+	margin: 5px;
 
 }
 
