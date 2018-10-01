@@ -1,10 +1,57 @@
 
+html { 
+  
+height: 100%;
+}
+
+
 body{
 
 background-color: #FFEBCD;
+    height: 100%;
 
+background-position: top center;
+  padding: 0;
+
+ 
+}
+
+
+/*
+Tamanho e edição dos carrosels, como usei id, tem q fazer pra cada carrosel, certo é usar classe, ai só poe virgula
+*/
+#fotoconta{
+		min-height: 400px;
+
+	height: 520px;
+	margin: 0px;
 
 }
+#carrossel{
+width: 90%;
+margin: auto;
+}
+
+#carrossels{
+width: 90%;
+margin: auto;
+}
+
+.carousel-control-prev-icon{
+	color: red;
+}
+
+#carouselExampleIndicators{
+
+width: 90%;
+margin: auto;
+}
+#carouselExampleIndicators:hover{
+
+width: 92%;
+margin: auto;
+}
+
 
 .row{
 	margin-right: 1px;
@@ -21,7 +68,9 @@ margin: 0px;
 
 }
 
-
+#embaixo{
+margin-top: 10px;
+}
 
 h1, h4 {
   text-align: center;
@@ -155,7 +204,7 @@ h1, h4 {
 	font-size: 30px;
 }
 
-imgs{
+.imgs{
 	height: 650px;
 	align-content: center;
 	text-align: center;
@@ -171,20 +220,7 @@ img#callofduty{
 
 }
 
-.carousel-control-prev-icon{
-	color: red;
-}
 
-#carouselExampleIndicators{
-
-width: 57%;
-margin: auto;
-}
-#carouselExampleIndicators:hover{
-
-width: 57.8%;
-margin: auto;
-}
 #legenda{
 	background-color: red;
 }
