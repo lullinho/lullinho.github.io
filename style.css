@@ -15,8 +15,18 @@ background-position: top center;
 
  
 }
+#v-pills-home-tab{
+	display: ;
+}
 
-
+/*
+essa nav, é a nav do body, de perguntas da platina e unlock all, ajustar o hover azul no celular
+*/
+.navBody{
+	display:flex;
+	margin-left: 2px;
+	min-width: 90px;
+}
 /*
 Tamanho e edição dos carrosels, como usei id, tem q fazer pra cada carrosel, certo é usar classe, ai só poe virgula
 */
