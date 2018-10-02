@@ -15,6 +15,10 @@ background-position: top center;
 
  
 }
+table{
+  overflow: scroll;   /* Sempre aparece a barra de rolagem */
+  overflow: auto;     /* Automaticamente verifica se precisa da barra */
+}
 #v-pills-home-tab{
 	display: ;
 }
@@ -23,10 +27,16 @@ background-position: top center;
 	list-style-position: inside;
 }
 
-.jumbotron{
+.jumbPlatina{
 	display: flex;
 	margin-left: 2px;
-	min-width: 700px;
+	min-width: 270px;
+}
+
+.jumbValor{
+		display: flex;
+	margin-left: 2px;
+	min-width: 612px;
 }
 
 .preco{
