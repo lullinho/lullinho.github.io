@@ -258,6 +258,11 @@ h1{
 }
 */
 
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
+
 .titulo{
 	text-align: center;
 }
