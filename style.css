@@ -1,19 +1,92 @@
-
-html { 
-  
-height: 100%;
-}
-
-
 body{
 
 background-color: #ffffe6;
-    height: 100%;
-
+ 
 background-position: top center;
   padding: 0;
 
  
+}
+
+/* MENU do unlock all, dropdown menu que aparece opcoes da NAVBAR bootstrap*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #343a40;
+    background-clip: padding-box;
+    border: 4px solid /*rgba(0,0,0,.15)*/;
+    border-radius: .25rem;
+}
+
+/* os itens do dropdown da navbar, os textos, etc, fundo*/
+.dropdown-item {
+    display: block;
+    width: 90%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center justify-content;
+    color: white;
+    text-align: inherit;
+    background-color: transparent;
+    white-space: nowrap;
+    border: 0;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+.dropdown-item:hover {
+    display: block;
+    width: 90%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffe6;
+    text-align: inherit;
+    background-color: red;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+/* mudando o estilo padrão da navbar do bootstrasp*/
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #f0ffea;
+    text-shadow: currentColor;
+    font-size: 18px;
+    font-style: unset;
+
+}
+/* com hover a navbar do bootstrap padrao*/
+.navbar-dark:hover .navbar-nav:hover .active:hover>.nav-link:hover, .navbar-dark:hover .navbar-nav:hover .nav-link.active:hover, .navbar-dark:hover .navbar-nav:hover .nav-link:hover.show:hover, .navbar-dark:hover .navbar-nav:hover .show:hover>.nav-link:hover {
+    color: white;
+    text-shadow: currentColor;
+    font-size: 19px;
+    font-style: unset;
+    background: #d19004;
+
+
 }
 
 .textoNav{
@@ -21,6 +94,9 @@ background-position: top center;
 	border-color: blue;
 	outline-color: blue;
 }
+
+
+
 
 
 .fa {
@@ -74,13 +150,27 @@ table{
 	margin: 2px;
 }
 
+
+.margemBotao{
+
+	margin: 15px;
+	width: 100px;
+}
+
 /*
-essa nav, é a nav do body, de perguntas da platina e unlock all, ajustar o hover azul no celular
+essa 
+, é a nav do body, de perguntas da platina e unlock all, ajustar o hover azul no celular
 */
 .navBody{
 	display:flex;
 	margin-left: 2px;
 	min-width: 90px;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+
 }
 /*
 Tamanho e edição dos carrosels, como usei id, tem q fazer pra cada carrosel, certo é usar classe, ai só poe virgula
@@ -205,6 +295,17 @@ h1, h4 {
 
 }
 
+
+
+
+.alert{
+
+line-height: 18px;
+size: 0.1;
+
+
+}
+
 .card-img-top{
 	
 	object-fit: cover;
@@ -214,6 +315,14 @@ h1, h4 {
     display: flex;
 	display: inline-block;
  
+
+}
+
+.img-thumbnail{
+max-height: 200px;
+max-width: 200px;
+min-height: 200px;
+min-width: 200px;
 
 }
 
