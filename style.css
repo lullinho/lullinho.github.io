@@ -36,6 +36,14 @@ height: 100%;
     width:100%;
     position:absolute;
 }
+
+.botaoPlatina{
+  margin: 3px;
+}
+
+
+
+
 /* MENU do unlock all, dropdown menu que aparece opcoes da NAVBAR bootstrap*/
 .dropdown-menu {
     position: absolute;
