@@ -7,6 +7,9 @@ background-position: top center;
 
  
 }
+
+
+
 .video-container {
 position: relative;
 padding-bottom: 56.25%;
@@ -120,7 +123,7 @@ height: 100%;
     text-shadow: currentColor;
     font-size: 19px;
     font-style: unset;
-    background: #d19004;
+    background: #F1C40F;
 
 
 }
@@ -281,6 +284,9 @@ margin: 0px;
   background-color: white;
 }
 
+.margemPs4{
+  margin: 2px;
+}
 #embaixo{
 margin-top: 10px;
 }

@@ -1,3 +1,6 @@
+import {without } from 'lodash';
+
+console.log(without);
 /*var button = document.getElementsByTagName("button")[14];
 
 button.addEventListener("mouseenter", function(){
