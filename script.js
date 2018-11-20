@@ -1,6 +1,7 @@
-import {without } from 'lodash';
 
-console.log(without);
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 /*var button = document.getElementsByTagName("button")[14];
 
 button.addEventListener("mouseenter", function(){
