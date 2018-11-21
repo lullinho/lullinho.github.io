@@ -44,7 +44,14 @@ height: 100%;
   margin: 3px;
 }
 
+.espacoLi{
+  padding-top: 4px;
+}
 
+#imgPagamento{
+  margin-right:10px;
+  margin-left: 10px;
+}
 
 
 /* MENU do unlock all, dropdown menu que aparece opcoes da NAVBAR bootstrap*/
