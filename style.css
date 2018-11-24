@@ -119,6 +119,7 @@ height: 100%;
 
     }
 
+
 /* mudando o estilo padrão da navbar do bootstrasp*/
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #f0ffea;
@@ -133,10 +134,19 @@ height: 100%;
     text-shadow: currentColor;
     font-size: 19px;
     font-style: unset;
-    background: #F1C40F;
+    background:#0c598e;
 
 
 }
+
+.navbar .current{
+  background-color: #0082da ;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
 
 .textoNav{
 	color: blue;
