@@ -140,11 +140,11 @@ height: 100%;
 }
 
 .navbar .current{
-  background-color: #0c598e;
+  background-color:#343a40 ;
 }
 
 .bg-dark {
-    background-color: #343a40!important;
+    background-color: #0c598e!important;
 }
 
 
