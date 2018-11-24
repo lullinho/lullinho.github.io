@@ -134,17 +134,17 @@ height: 100%;
     text-shadow: currentColor;
     font-size: 19px;
     font-style: unset;
-    background:#0082da ;
+    background:#0c598e  ;
 
 
 }
 
 .navbar .current{
-  background-color:#343a40 ;
+  background-color: #0082da;
 }
 
 .bg-dark {
-    background-color: #0c598e!important;
+    background-color: #343a40!important;
 }
 
 
