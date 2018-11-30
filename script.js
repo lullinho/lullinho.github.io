@@ -23,6 +23,44 @@ botao.addEventListener("click", function(){
 })*/
 
 
+// direitos autorias
+const direitos = document.getElementById("direitos");
+htmlDireitos = direitos.innerHTML;
+
+htmlNew = '<span class="fas fa-copyright"></span>';
+htmlDireitos = htmlNew + htmlDireitos;
+
+direitos.innerHTML = htmlDireitos;
+
+//PEGAR O ELEMENTO DIV COMENTARIOS E ADICIONAR UM ELEMENTO HTML COM CLASSE
+const comentarios = document.getElementById("comentarios");
+const divComentario = document.getElementById("comentario");
+
+ HTMLTemporario = comentarios.innerHTML;
+    // Novo HTML que será inserido
+    HTMLNovo = '<span class="fas fa-comments"></span>';
+ 
+// Concatena as strings colocando o novoHTML antes do HTMLTemporario
+HTMLTemporario = HTMLNovo + HTMLTemporario;
+ 
+// Coloca a nova string(que é o HTML) no DOM
+comentarios.innerHTML = HTMLTemporario;
+
+
+
+
+//pagamento
+
+const pagamentos = document.getElementById("pagamentos");
+htmlPagamentos = pagamentos.innerHTML;
+htmlNew2 = '<span class="fas fa-shopping-cart"></span>';
+htmlPagamentos = htmlNew2 + htmlPagamentos;
+pagamentos.innerHTML = htmlPagamentos;
+
+
+
+
+
 
 /*
 

@@ -10,6 +10,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
  <link rel="shortcut icon" href="favicon.ico" />
 
 
@@ -40,10 +43,11 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link current" href="https://lullinho.github.io/#">Home <span class="sr-only">(current)</span></a>
+
+        <a class="nav-link current" href="https://lullinho.github.io/#">  <span class="fas fa-home"></span> <!-- using a <span> element to reference the icon -->Home <span class="sr-only">(current)</span></a>
       </li>
    <li class="nav-item dropdown active" id="oi">
-        <a class="nav-link dropdown-toggle" href="unlockallbo3.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <a class="nav-link dropdown-toggle" href="unlockallbo3.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  <span class="fas fa-medal"></span> <!-- using a <span> element to reference the icon -->
          Unlock All
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="oi">
@@ -55,11 +59,11 @@
  
   
            <li class="nav-item active">
-        <a class="nav-link" href="platinas.html">Platinas</a>
+        <a class="nav-link" href="platinas.html"><span class="fas fa-trophy"></span> Platinas</a>
       </li>
 
       <li class="nav-item active">
-        <a class="nav-link textoNav" data-toggle="modal" data-target="#exampleModal4" href="#">Contato
+        <a class="nav-link textoNav" data-toggle="modal" data-target="#exampleModal4" href="#"><span class="fas fa-users"></span> Contato
 
 
         </a>
@@ -67,16 +71,17 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contato do LULLINHO</h5>
+        <h5 class="modal-title" id="exampleModalLabel"><span class="fas fa-user-secret"></span> Contato do LULLINHO</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-       <a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20quero%20tirar%20uma%20dúvida" target="_blank">Mande uma mensagem WhatsApp aqui!</a>
-       <div> Facebook: <a target=“_blank” href="https://www.facebook.com/felipee.lullio">felipee.lullio</a></div>
+       <a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20quero%20tirar%20uma%20dúvida" target="_blank"><span class="fab fa-whatsapp navFab"></span> Mande uma mensagem WhatsApp aqui!</a>
+       <div> <a target=“_blank” href="https://www.facebook.com/felipee.lullio"><p><span class="fab fa-facebook-f navFab"></span>    Facebook</a></div></p>
+       <div> <a target=“_blank” href="https://www.youtube.com/canaldoLULLINHOs2"><span class="fab fa-youtube navFab"></span>   Youtube</a></div>
 
-       <div> PSN: x-LULLINHO</div>
+       <div class="modal-body">  PSN: x-LULLINHO</div>
    
       </div>
       <div class="modal-footer">
@@ -214,7 +219,7 @@
 <br><br>
         
 <div class="alert alert-warning text-center border border-warning" id="comentario" role="alert">
- <h5> COMENTÁRIOS</h5>
+ <h5 id="comentarios">   COMENTÁRIOS</h5>
 </div>
 <div id="disqus_thread" class="comentarios"></div>
 <script>
@@ -253,12 +258,12 @@ s.setAttribute('data-timestamp', +new Date());
 
 </div>
 
-<div class="text-center">
-© Copyright 2018 LULLINHO. 
+<div class="text-center" id="direitos">
+Copyright 2018 LULLINHO. 
 <p class="justify-text">Todos os direitos reservados. </p>
-<a target="_blank" href="https://www.youtube.com/canaldoLULLINHOs2" class="fa fa-youtube"></a>
-<a target="_blank" href="https://www.facebook.com/felipee.lullio" class="fa fa-facebook"></a>
-<a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20eu%20vi%20seu%20site" target="_blank" class="fa fa-whatsapp"></a>
+<a target="_blank" href="https://www.youtube.com/canaldoLULLINHOs2" class="fab fa-youtube"></a>
+<a target="_blank" href="https://www.facebook.com/felipee.lullio" class="fab fa-facebook-f"></a>
+<a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20eu%20vi%20seu%20site" target="_blank" class="fab fa-whatsapp"></a>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

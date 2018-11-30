@@ -7,6 +7,7 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
@@ -30,8 +31,8 @@
 
 
 
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarOutro">
+<section style="background: #f1c40f; color: rgba(0, 0, 0, 0.5);">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarOutro shift">
   <a class="navbar-brand" href="https://lullinho.github.io/#">LULLINHO GAMES</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -40,10 +41,11 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="https://lullinho.github.io/#">Home <span class="sr-only">(current)</span></a>
+
+        <a class="nav-link" href="https://lullinho.github.io/#">  <span class="fas fa-home"></span> <!-- using a <span> element to reference the icon -->Home <span class="sr-only">(current)</span></a>
       </li>
    <li class="nav-item dropdown active" id="oi">
-        <a class="nav-link dropdown-toggle" href="unlockallbo3.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <a class="nav-link dropdown-toggle" href="unlockallbo3.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  <span class="fas fa-medal"></span> <!-- using a <span> element to reference the icon -->
          Unlock All
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="oi">
@@ -55,11 +57,11 @@
  
   
            <li class="nav-item active">
-        <a class="nav-link current" href="platinas.html">Platinas</a>
+        <a class="nav-link current" href="platinas.html"><span class="fas fa-trophy"></span> Platinas</a>
       </li>
 
       <li class="nav-item active">
-        <a class="nav-link textoNav" data-toggle="modal" data-target="#exampleModal4" href="#">Contato
+        <a class="nav-link textoNav" data-toggle="modal" data-target="#exampleModal4" href="#"><span class="fas fa-users"></span> Contato
 
 
         </a>
@@ -67,16 +69,17 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contato do LULLINHO</h5>
+        <h5 class="modal-title" id="exampleModalLabel"><span class="fas fa-user-secret"></span> Contato do LULLINHO</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-       <a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20quero%20tirar%20uma%20dúvida" target="_blank">Mande uma mensagem WhatsApp aqui!</a>
-       <div> Facebook: <a target=“_blank” href="https://www.facebook.com/felipee.lullio">felipee.lullio</a></div>
+       <a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20quero%20tirar%20uma%20dúvida" target="_blank"><span class="fab fa-whatsapp navFab"></span> Mande uma mensagem WhatsApp aqui!</a>
+       <div> <a target=“_blank” href="https://www.facebook.com/felipee.lullio"><p><span class="fab fa-facebook-f navFab"></span>    Facebook</a></div></p>
+       <div> <a target=“_blank” href="https://www.youtube.com/canaldoLULLINHOs2"><span class="fab fa-youtube navFab"></span>   Youtube</a></div>
 
-       <div> PSN: x-LULLINHO</div>
+       <div class="modal-body">  PSN: x-LULLINHO</div>
    
       </div>
       <div class="modal-footer">
@@ -93,8 +96,7 @@
      
     <a target="_blank" href="https://perfil.mercadolivre.com.br/LULLINHO_GAMES"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Reputação do Vendedor</button></a>
 </nav>
-
-
+</section>
 
 <!--
 <div>
@@ -338,13 +340,12 @@
 
 
 
-
-<div class="text-center">
-© Copyright 2018 LULLINHO. 
+<div class="text-center" id="direitos">
+Copyright 2018 LULLINHO. 
 <p class="justify-text">Todos os direitos reservados. </p>
-<a target="_blank" href="https://www.youtube.com/canaldoLULLINHOs2" class="fa fa-youtube"></a>
-<a target="_blank" href="https://www.facebook.com/felipee.lullio" class="fa fa-facebook"></a>
-<a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20eu%20vi%20seu%20site" target="_blank" class="fa fa-whatsapp"></a>
+<a target="_blank" href="https://www.youtube.com/canaldoLULLINHOs2" class="fab fa-youtube"></a>
+<a target="_blank" href="https://www.facebook.com/felipee.lullio" class="fab fa-facebook-f"></a>
+<a href="https://api.whatsapp.com/send?phone=5511972586520&text=Oi,%20eu%20vi%20seu%20site" target="_blank" class="fab fa-whatsapp"></a>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -354,7 +355,7 @@ $(document).ready(function(){
     $('[data-toggle="popover"]').popover(); 
 });
 </script>
-
-
+<script type="text/javascript" src="script.js">
+</script>
 </body>
 </html>
