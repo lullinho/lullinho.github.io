@@ -160,17 +160,10 @@ height: 100%;
   font-size: 45px;
 }
 
-.fa{
-  
-  font-size: 80px;
-
-  text-align: center;
-  text-decoration: none;
-  margin: 10px;
-}
 .navFab{
   font-size: 25px;
 }
+
 .fa:hover {
     opacity: 0.7;
     font-size: 35px;
@@ -195,10 +188,10 @@ table{
 	min-width: 270px;
 }
 
-.jumbValor{
-		display: flex;
+.jumbValorBo3{
+		display: grid;
 	margin-left: 2px;
-	min-width: 612px;
+	min-width: 50px;
 }
 
 .preco{
