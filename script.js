@@ -22,6 +22,14 @@ botao.addEventListener("click", function(){
 
 })*/
 
+//botaoreputacao
+const reputacao = document.getElementById("reputacao");
+htmlReputacao = reputacao.innerHTML;
+htmlNew3 = '<span class="fas fa-crown"> </span>';
+htmlReputacao =   htmlNew3+ htmlReputacao + " "+ htmlNew3;
+reputacao.innerHTML = htmlReputacao;
+
+
 
 // direitos autorias
 const direitos = document.getElementById("direitos");
