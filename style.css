@@ -194,6 +194,11 @@ table{
 	min-width: 50px;
 }
 
+.platinaPills{
+  margin: 5px;
+
+}
+
 .preco{
 	text-decoration-color: all;
 	color: green;
