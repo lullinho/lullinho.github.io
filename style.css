@@ -194,9 +194,12 @@ table{
 	min-width: 50px;
 }
 
-.platinaPills{
-  
 
+.respostasBo3{
+    
+   margin-left: 10px;
+  
+   overflow: auto;
 }
 
 .preco{
