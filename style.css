@@ -19,14 +19,20 @@
     }
     .lead{
       font-size: 17px;
+      padding: 0;
+
     }
-    h6 , h5{
+    h6 {
       font-size: 15px;
     }
     .nav-small{
-      font-size: 12px;
+      margin-bottom: 0;
+      font-size: 13px;
       text-transform: uppercase;
 
+    }
+    .display-6, .display-4{
+      font-size: 28px;
     }
 
 
