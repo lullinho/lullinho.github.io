@@ -34,7 +34,13 @@
     .display-6, .display-4{
       font-size: 28px;
     }
+    .platinaPills{
+  display: inline-table;
+}
 
+  .list-group-item{
+    font-size: 13px;
+  }
 
 }
 
@@ -93,6 +99,7 @@ height: 100%;
 .botaoPlatina{
   margin: 3px;
 }
+
 
 .espacoLi{
   padding-top: 4px;
