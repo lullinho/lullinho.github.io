@@ -264,8 +264,8 @@ table{
 
 .jumbValorBo3{
 		display: grid;
-	
-	
+	margin-left: 2px;
+	min-width: 20px;
 }
 
 
