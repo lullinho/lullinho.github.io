@@ -3,12 +3,12 @@ function trocarTexto() {
     
     if(controle ==0){
       document.getElementById("demo25").style.background = "grey";
-       document.getElementById("demo25").innerHTML = "ESCONDER TODOS PACOTES";
+       document.getElementById("demo25").innerHTML = "ESCONDER TODOS OS PACOTES";
         controle++;
         }
     else{
      document.getElementById("demo25").style.background = "black";
-      document.getElementById("demo25").innerHTML = "VER TODOS PACOTES";
+      document.getElementById("demo25").innerHTML = "VER TODOS OS PACOTES";
         controle--;
         }
 }
