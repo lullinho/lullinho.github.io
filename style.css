@@ -7,6 +7,13 @@
     body {
       padding:0;
     }
+    #fotoconta{
+
+width: 10px;
+height: 10px;
+
+
+}
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
       margin-left: 0;
