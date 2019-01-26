@@ -490,8 +490,9 @@ a{
 	text-align: center;
 	
 }
-.ajuste{
-  max-width: 100%;
+.estilo{
+ width: 100%;
+  background-color: yellow;
 }
 .comentarios{
 margin:5px;
