@@ -490,6 +490,9 @@ a{
 	text-align: center;
 	
 }
+.ajuste{
+  max-width: 100%;
+}
 .comentarios{
 margin:5px;
 
