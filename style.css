@@ -490,9 +490,10 @@ a{
 	text-align: center;
 	
 }
-.estilo{
- width: 100%;
-  background-color: yellow;
+.bo3p{
+max-width: 100;
+padding-right: 1;
+margin-right: 1;
 }
 .comentarios{
 margin:5px;
