@@ -1,3 +1,23 @@
+var controle = 0;
+function trocarTexto() {
+    
+    if(controle ==0){
+      document.getElementById("demo25").style.background = "grey";
+       document.getElementById("demo25").innerHTML = "ESCONDER TODOS PACOTES";
+        controle++;
+        }
+    else{
+     document.getElementById("demo25").style.background = "black";
+      document.getElementById("demo25").innerHTML = "VER TODOS PACOTES";
+        controle--;
+        }
+}
+
+
+
+
+
+
 
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
