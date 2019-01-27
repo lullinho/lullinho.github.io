@@ -16,6 +16,14 @@ height: 10px;
 }
 
 
+.espacoRespostaDuvida{
+    
+   margin-left: 17px;
+  
+   overflow: auto;
+}
+
+
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
       margin-left: 0;
@@ -54,12 +62,14 @@ height: 10px;
   .list-group-item{
     font-size: 13px;
   }
+  /*
   .espacoRespostaDuvida{
     
-   margin-left: 10px;
+   margin-left: 7px;
   
    overflow: auto;
 }
+*/
 
 }
 
@@ -239,6 +249,8 @@ height: 100%;
   font-size: 25px;
 }
 
+
+
 .fab:hover {
     opacity: 0.7;
     font-size: 50px;
@@ -273,7 +285,7 @@ table{
 
 .espacoRespostaDuvida{
     
-   margin-left: 18px;
+   margin-left: -10px;
   
    overflow: auto;
 }
@@ -494,7 +506,16 @@ a{
 }
 .fundo{
 
-  background-color: yellow;
+  background-color: #0082da;
+   border: 4px dotted blue;
+   border: 6px dashed blue;
+   width: 100%;
+   margin-right: 0px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+
 }
 .comentarios{
 margin:5px;
