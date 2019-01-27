@@ -35,10 +35,13 @@ height: 10px;
       font-size: 14px;
     }
     .lead{
-      font-size: 16px;
+      font-size: 14px;
       padding: 0;
       margin-bottom: 19px;
 
+    }
+    .tudoEscolha{
+      font-size: 16px;
     }
     h6 {
       font-size: 15px;
@@ -285,7 +288,7 @@ table{
 
 .espacoRespostaDuvida{
     
-   margin-left: 7px;
+   margin-left: 17px;
   
    overflow: auto;
 }
