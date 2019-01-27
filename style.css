@@ -16,14 +16,6 @@ height: 10px;
 }
 
 
-.espacoRespostaDuvida{
-    
-   margin-left: 25px;
-  
-   overflow: auto;
-}
-
-
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
       margin-left: 0;
@@ -65,14 +57,7 @@ height: 10px;
   .list-group-item{
     font-size: 13px;
   }
-  /*
-  .espacoRespostaDuvida{
-    
-   margin-left: 7px;
-  
-   overflow: auto;
-}
-*/
+
 
 }
 
