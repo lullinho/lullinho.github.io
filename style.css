@@ -1,4 +1,4 @@
-@media (max-width: 978px) {
+@media (max-width: 900px) {
     .container {
       padding:0;
       margin:0;
@@ -18,7 +18,7 @@ height: 10px;
 
 .espacoRespostaDuvida{
     
-   margin-left: 17px;
+   margin-left: 25px;
   
    overflow: auto;
 }
@@ -35,7 +35,7 @@ height: 10px;
       font-size: 14px;
     }
     .lead{
-      font-size: 17px;
+      font-size: 16px;
       padding: 0;
       margin-bottom: 19px;
 
@@ -285,7 +285,7 @@ table{
 
 .espacoRespostaDuvida{
     
-   margin-left: -10px;
+   margin-left: 7px;
   
    overflow: auto;
 }
