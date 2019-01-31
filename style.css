@@ -494,9 +494,9 @@ a{
 }
 .fundo{
 
-  background-color: #0082da;
-   border: 4px dotted blue;
-   border: 6px dashed blue;
+  background-color: #DCDCDC;
+   border: 4px dashed blue;
+   border: 2px dotted blue;
    width: 100%;
    margin-right: 0px;
    text-align: center;
@@ -505,6 +505,12 @@ a{
    align-content: center;
 
 }
+
+.bordaCartao{
+  border: 2px solid blue;
+}
+
+
 .comentarios{
 margin:5px;
 
