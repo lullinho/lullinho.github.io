@@ -66,7 +66,7 @@ height: 10px;
 
 
 
-
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
 
 
 
@@ -79,6 +79,192 @@ background-position: top center;
 
  
 }
+
+@import url(https://fonts.googleapis.com/css?family=Passion+One:900);
+
+
+.prismix {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 1000px;
+  height: 100px;
+
+  background-image: url('https://4f01b72a6306fc2fac7bb346235d7e131c41e8ba.googledrive.com/host/0B3V4LxM9XSTzR2ZuSzdJN19RVzA/Portfolio/Animatext/images/horizon.png');
+  background-position: center center;
+  background-size: 1000px 200px;
+  border-radius: 10px;
+  overflow: hidden;
+    text-align: center;
+  vertical-align: middle;
+
+  box-shadow: 0 1px 0 1px rgba(0,0,0,0.2),
+      0 2px 5px rgba(0,0,0,0.5);
+
+}
+.prismix:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.RainbowPrism {
+  display: inline-block;
+  margin: 0;
+
+    color:  rgb(30, 15, 60);
+  font-family: 'Passion One';
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  min-width: 50px;
+  outline: none;
+  vertical-align: middle;
+    
+  animation: 10s RainbowPrism infinite linear;
+    text-shadow:
+    0px -6px 6px rgba(255, 200, 200, 0.8),
+    -8px -4px 6px rgba(255, 255, 200, 0.9),
+    -8px 4px 6px rgba(200, 255, 200, 1.0),
+    0px 6px 6px rgba(200, 255, 255, 0.9),
+    8px 4px 6px rgba(200, 200, 255, 0.8),
+    8px -4px 6px rgba(255, 200, 255, 0.8),
+    -1px -1px 1px rgba(255, 255, 255, 0.7),
+    1px 1px 1px rgba(50,  50, 50, 0.5);
+
+    animation: .8s shake infinite alternate;
+
+}
+
+
+
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+
+@keyframes RainbowPrism {
+  0% {
+    text-shadow:
+0px -6px  6px rgba(255, 200,  200,  0.8),
+-8px  -4px  6px rgba(255, 255,  200,  0.9),
+-8px  4px 6px rgba(200, 255,  200,  1.0),
+0px 6px 6px rgba(200, 255,  255,  0.9),
+8px 4px 6px rgba(200, 200,  255,  0.8),
+8px -4px  6px rgba(255, 200,  255,  0.8),
+-1px  -1px  1px rgba(255, 255,  255,  0.7),
+1px 1px 1px rgba(50,  50, 50, 0.5);
+      }
+  17% {
+    text-shadow:
+8px -4px  6px rgba(255, 200,  200,  0.8),
+0px -6px  6px rgba(255, 255,  200,  0.9),
+-8px  -4px  6px rgba(200, 255,  200,  1.0),
+-8px  4px 6px rgba(200, 255,  255,  0.9),
+0px 6px 6px rgba(200, 200,  255,  0.8),
+8px 4px 6px rgba(255, 200,  255,  0.8),
+-1px  -1px  1px rgba(255, 255,  255,  0.7),
+1px 1px 1px rgba(50,  50, 50, 0.5);
+      }
+  34% {
+    text-shadow:
+8px 4px 6px rgba(255, 200,  200,  0.8),
+8px -4px  6px rgba(255, 255,  200,  0.9),
+0px -6px  6px rgba(200, 255,  200,  1.0),
+-8px  -4px  6px rgba(200, 255,  255,  0.9),
+-8px  4px 6px rgba(200, 200,  255,  0.8),
+0px 6px 6px rgba(255, 200,  255,  0.8),
+-1px  -1px  1px rgba(255, 255,  255,  0.7),
+1px 1px 1px rgba(50,  50, 50, 0.5);
+
+      }
+  51% {
+    text-shadow:
+0px 6px 6px rgba(255, 200,  200,  0.8),
+8px 4px 6px rgba(255, 255,  200,  0.9),
+8px -4px  6px rgba(200, 255,  200,  1.0),
+0px -6px  6px rgba(200, 255,  255,  0.9),
+-8px  -4px  6px rgba(200, 200,  255,  0.8),
+-8px  4px 6px rgba(255, 200,  255,  0.8),
+-1px  -1px  1px rgba(255, 255,  255,  0.7),
+1px 1px 1px rgba(50,  50, 50, 0.5);
+      }
+  68% {
+    text-shadow:
+-8px  4px 6px rgba(255, 200,  200,  0.8),
+0px 6px 6px rgba(255, 255,  200,  0.9),
+8px 4px 6px rgba(200, 255,  200,  1.0),
+8px -4px  6px rgba(200, 255,  255,  0.9),
+0px -6px  6px rgba(200, 200,  255,  0.8),
+-8px  -4px  6px rgba(255, 200,  255,  0.8),
+-1px  -1px  1px rgba(255, 255,  255,  0.7),
+1px 1px 1px rgba(50,  50, 50, 0.5);
+      }
+  85% {
+    text-shadow:
+-8px  -4px  6px rgba(255, 200,  200,  0.8),
+-8px  4px 6px rgba(255, 255,  200,  0.9),
+0px 6px 6px rgba(200, 255,  200,  1.0),
+8px 4px 6px rgba(200, 255,  255,  0.9),
+8px -4px  6px rgba(200, 200,  255,  0.8),
+0px -6px  6px rgba(255, 200,  255,  0.8),
+-1px  -1px  1px rgba(255, 255,  255,  0.7),
+1px 1px 1px rgba(50,  50, 50, 0.5);
+      }
+  100% {
+    text-shadow:
+0px -6px  6px rgba(255, 200,  200,  0.8),
+-8px  -4px  6px rgba(255, 255,  200,  0.9),
+-8px  4px 6px rgba(200, 255,  200,  1.0),
+0px 6px 6px rgba(200, 255,  255,  0.9),
+8px 4px 6px rgba(200, 200,  255,  0.8),
+8px -4px  6px rgba(255, 200,  255,  0.8),
+-1px  -1px  1px rgba(255, 255,  255,  0.7),
+1px 1px 1px rgba(50,  50, 50, 0.5);
+      }
+}
+
+.h1 {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 5vw;
+  font-weight: 999;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
 
 
 
@@ -403,8 +589,7 @@ h1, h4 {
   text-align: center;
   alignment-baseline: center;
   font-family: 'Oswald', Helvetica, sans-serif;
-  font-size: 60px;
-  transform: skewY(-10deg);
+
   letter-spacing: 4px;
   word-spacing: -8px;
   color: tomato;
@@ -494,16 +679,21 @@ a{
 }
 .fundo{
 
-  background-color: #DCDCDC;
-   border: 4px dashed blue;
-   border: 2px dotted blue;
-   width: 100%;
-   margin-right: 0px;
+  
+
+   border: 2px solid black;
+   background-image: url("https://images7.alphacoders.com/328/thumb-1920-328413.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
    text-align: center;
    justify-content: center;
    align-items: center;
    align-content: center;
-   margin-left: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+
+
 
 }
 
@@ -516,29 +706,6 @@ a{
 margin:5px;
 
 }
-/*
-
-h1{
-	
-	border: 6px dashed white;
-	background-color: pink;
-	text-decoration: underline;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 300%;
-	line-height: 50px;
-	font-family: 'Poiret One', cursive;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	align-content: center;
-	text-align: center;
-	padding: 30px;
-	margin: 20px;
-
-
-}
-*/
 
 @media only screen and (max-width: 767px) {
    .fb-comments {
@@ -598,7 +765,7 @@ h1, h4 {
   text-align: center;
   alignment-baseline: center;
   font-family: 'Oswald', Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
