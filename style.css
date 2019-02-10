@@ -16,8 +16,12 @@ height: 10px;
 }
 .fundo{
 
-   margin-right: 5px;
-   margin-left: 5px;
+   margin-right: 10px;
+ 
+}
+.cartao{
+  text-align: left;
+  
 }
 
 
@@ -244,7 +248,7 @@ background-position: top center;
   position: relative;
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 5vw;
+  font-size: 8vw;
   font-weight: 999;
   text-decoration: none;
   color: white;
