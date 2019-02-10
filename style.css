@@ -15,20 +15,11 @@ height: 10px;
 
 }
 .fundo{
-   border: 2px solid black;
 
-    background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-   margin-right: 10px;
-
-
-
+   margin-right: 5px;
+   margin-left: 5px;
 }
+
 
 
 
@@ -80,6 +71,9 @@ height: 10px;
 
 
 
+    @media only screen and (min-width: 500px) {
+    .desktop-hide{ display: none !important; }
+    }
 
 
 @import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
