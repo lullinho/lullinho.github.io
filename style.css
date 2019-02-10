@@ -15,12 +15,13 @@ height: 10px;
 
 }
 .fundo{
-  margin-left: 5px;
+  margin-left: 10px;
    margin-right: 10px;
+   background: none;
  
 }
 .cartao{
-  text-align: left;
+  text-align: center;
   
 }
 
