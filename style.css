@@ -5,7 +5,7 @@
     }
 
     body {
-      padding:0;
+      padding:0.4;
     }
     #fotoconta{
 
@@ -25,12 +25,11 @@ height: 10px;
   text-align: left;
   
 }
-#demo25{
-  font-size: 12px;
+
+
+.logomobile{
+  font-size: 15px;
 }
-
-
-
 
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
@@ -80,15 +79,6 @@ height: 10px;
 
 
 
-    @media only screen and (min-width: 500px) {
-    .desktop-hide{ display: none !important; }
-    }
-
-
-@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
-
-
-
 body{
 
 background-color: #F0F0F0;
@@ -99,61 +89,8 @@ background-position: top center;
  
 }
 
-@import url(https://fonts.googleapis.com/css?family=Passion+One:900);
 
 
-.prismix {
-  margin: 20px auto;
-  width: 50%;
-  max-width: 1000px;
-  height: 70px;
-
-  background-image: url('https://4f01b72a6306fc2fac7bb346235d7e131c41e8ba.googledrive.com/host/0B3V4LxM9XSTzR2ZuSzdJN19RVzA/Portfolio/Animatext/images/horizon.png');
-  background-position: center center;
-  background-size: 1000px 200px;
-  border-radius: 10px;
-  overflow: hidden;
-    text-align: center;
-  vertical-align: middle;
-
-  box-shadow: 0 1px 0 1px rgba(0,0,0,0.2),
-      0 2px 5px rgba(0,0,0,0.5);
-
-}
-.prismix:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
-.RainbowPrism {
-  display: inline-block;
-  margin: 0;
-
-    color:  rgb(30, 15, 60);
-  font-family: 'Passion One';
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 60px;
-  min-width: 50px;
-  outline: none;
-  vertical-align: middle;
-    
-  animation: 10s RainbowPrism infinite linear;
-    text-shadow:
-    0px -6px 6px rgba(255, 200, 200, 0.8),
-    -8px -4px 6px rgba(255, 255, 200, 0.9),
-    -8px 4px 6px rgba(200, 255, 200, 1.0),
-    0px 6px 6px rgba(200, 255, 255, 0.9),
-    8px 4px 6px rgba(200, 200, 255, 0.8),
-    8px -4px 6px rgba(255, 200, 255, 0.8),
-    -1px -1px 1px rgba(255, 255, 255, 0.7),
-    1px 1px 1px rgba(50,  50, 50, 0.5);
-
-    animation: .8s shake infinite alternate;
-
-}
 
 
 
@@ -249,11 +186,11 @@ background-position: top center;
       }
 }
 
-.h1 {
+.h12 {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 8vw;
+  font-size: 3vw;
   font-weight: 999;
   text-decoration: none;
   color: white;
@@ -697,21 +634,8 @@ a{
 	text-align: center;
 	
 }
-.fundo{
-   border: 2px solid black;
-   background-image: url("img/fundobo3.jpg");
-    background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-   
 
 
-
-}
 
 .bordaCartao{
   border: 2px solid blue;
