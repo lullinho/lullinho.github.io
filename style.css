@@ -6,6 +6,7 @@
 
     body {
       padding:0.4;
+      overflow: hidden;
     }
     #fotoconta{
 
@@ -17,6 +18,8 @@ height: 10px;
 
 .h12{
     font-size: 25px;
+    text-align: center;
+
 }
 
 .fundo{
@@ -197,6 +200,7 @@ background-position: top center;
   letter-spacing: 6px;
   font-size: 35px;
   font-weight: 999;
+  text-align: center;
   text-decoration: none;
   color: white;
   display: inline-block;
