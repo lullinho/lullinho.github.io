@@ -14,6 +14,11 @@ height: 10px;
 
 
 }
+
+.h12{
+    font-size: 5vw;
+}
+
 .fundo{
   margin-left: 5px;
    margin-right: 10px;
@@ -190,7 +195,7 @@ background-position: top center;
   position: relative;
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 3vw;
+  font-size: 4vw;
   font-weight: 999;
   text-decoration: none;
   color: white;
