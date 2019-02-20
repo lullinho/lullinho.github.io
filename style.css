@@ -792,10 +792,8 @@ height: 10px;
 
 .logomobile{
   font-size: 20px;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
+  text-align: right;
+
 }
 .listagem-episodios .tt-padrao {
   background-color: #2E2E2E;
