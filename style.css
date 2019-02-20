@@ -309,8 +309,8 @@ height: 100%;
 }
 
 .jumbotron{
-  border-color: #000000;
-  border-width: 4px;
+  border-color: #151719;;
+  border-width: 1px;
   border-style: solid;
   background-color: #DAF7A6;
   background-color: #D0D3D4;
@@ -737,7 +737,8 @@ img#callofduty{
   background-color: #2E2E2E;
   text-align: center;
   padding:21px;
-  border-radius: 10px 10px 15px 15px;
+  border-radius: 0px 0px 15px 15px;
+
 
 }
 
@@ -748,6 +749,7 @@ img#callofduty{
   text-overflow: ellipsis;
   font: 27px  bold;
   border-radius: 15px 50px 30px 5px;
+
 
 
 
@@ -762,6 +764,7 @@ img#callofduty{
 
 .listagem-episodios.comentarios {
   margin-top: 30px;
+  border: solid #151719 0.9px;
 }
 
 .comentarios {
