@@ -601,11 +601,12 @@ h1, h4 {
 }
 #listaPla{
   color: white;
+
+}
+.textoPag:hover{
+  background-color: black;
 }
 
-hr{
-  color:white;
-}
 img#callofduty{
 	height: 200px;
 	width: 200px;
