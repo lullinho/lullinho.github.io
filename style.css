@@ -239,6 +239,10 @@ height: 100%;
   opacity: 2.5;
 }
 
+.fundo{
+  border: solid black 1px;
+  border-radius: 70px 70px 70px 70px;
+}
 
 .fab:hover {
     opacity: 0.7;
@@ -594,6 +598,13 @@ h1, h4 {
 	align-content: center;
 	text-align: center;
 
+}
+#listaPla{
+  color: white;
+}
+
+hr{
+  color:white;
 }
 img#callofduty{
 	height: 200px;
