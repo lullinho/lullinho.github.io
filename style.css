@@ -1,97 +1,3 @@
-@media (max-width: 800px) {
-    .container {
-      padding:0;
-      margin:0;
-    }
-
-    #fotoconta{
-
-width: 10px;
-height: 10px;
-
-
-}
-
-.comentariosM {
-  margin-top: -15px;
-  margin-left:-40px;
-  margin-right: -40px;
-
-}
-.comentarios1M{
-  margin-left: -40px;
-  margin-right: -40px;
-  
-}
-
-.h12{
-    font-size: 25px;
-    text-align: center;
-
-}
-
-.fundo{
-  margin-left: 5px;
-   margin-right: 10px;
-   background: none;
-   max-width: 80%
- 
-}
-.cartao{
-  text-align: center;
-  
-}
-
-
-.logomobile{
-  font-size: 15px;
-}
-
-
-    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom:0;
-    }
-
-    p{
-      font-size: 14px;
-    }
-    .lead{
-      font-size: 14px;
-      padding: 0;
-      margin-bottom: 19px;
-      margin: 1px;
-
-    }
-    .tudoEscolha{
-      font-size: 16px;
-    }
-    h6 {
-      font-size: 15px;
-    }
-    .nav-small{
-      margin-bottom: 0;
-      font-size: 13px;
-      text-transform: uppercase;
-
-
-    }
-    .display-6, .display-4{
-      font-size: 28px;
-    }
-    .platinaPills{
-      margin-bottom: 5px;
-  
-
-}
-
-  .list-group-item{
-    font-size: 13px;
-  }
-
-
-}
 
 
 
@@ -652,6 +558,11 @@ a{
     height: auto;
 
 }
+
+.btn-success{
+  margin-left: 3px;
+  margin-top: 2px;
+}
 h1, h4 {
   text-align: center;
   alignment-baseline: center;
@@ -828,3 +739,103 @@ img#callofduty{
 
 
 
+@media (max-width: 800px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    #fotoconta{
+
+width: 10px;
+height: 10px;
+
+
+}
+
+#direitos{
+  font-size: 10px;
+}
+
+
+
+.comentarios {
+  margin-top: 0px;
+  margin-left:0px;
+  margin-right: 0px;
+
+}
+.comentarios1{
+  margin-left: 5px;
+  margin-right: 0px;
+  
+}
+
+.h12{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.fundo{
+  margin-left: 5px;
+   margin-right: 10px;
+   background: none;
+   max-width: 80%
+ 
+}
+.cartao{
+  text-align: center;
+  
+}
+
+
+.logomobile{
+  font-size: 15px;
+}
+
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+
+    p{
+      font-size: 14px;
+    }
+    .lead{
+      font-size: 14px;
+      padding: 0;
+      margin-bottom: 19px;
+      margin: 1px;
+
+    }
+    .tudoEscolha{
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 15px;
+    }
+    .nav-small{
+      margin-bottom: 0;
+      font-size: 13px;
+      text-transform: uppercase;
+
+
+    }
+    .display-6, .display-4{
+      font-size: 28px;
+    }
+    .platinaPills{
+      margin-bottom: 5px;
+  
+
+}
+
+  .list-group-item{
+    font-size: 13px;
+  }
+
+
+}
