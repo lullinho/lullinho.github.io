@@ -572,10 +572,7 @@ a{
 }
 
 
-.comentarios{
-margin:5px;
 
-}
 
 @media only screen and (max-width: 767px) {
    .fb-comments {
@@ -702,7 +699,7 @@ img#callofduty{
 }
 .listagem-episodios {
   margin: 30px 0 7px;
-  background-color: #151515;
+  background-color: #262626;
 }
 
 .listagem-episodios.top{
@@ -740,6 +737,9 @@ img#callofduty{
   margin-left:40px;
   margin-right: 40px;
 
+}
+.comentarios1{
+  margin-left: 5px;
 }
 .pgn-single-episodio{
   margin-top: 15px;
