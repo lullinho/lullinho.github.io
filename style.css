@@ -85,7 +85,7 @@ height: 10px;
 
 body{
 
-background-color: #F0F0F0;
+background-color: #1C1C1C;
  
 background-position: top center;
 
@@ -292,7 +292,12 @@ height: 100%;
 	outline-color: blue;
 }
 
-
+.jumbotron{
+  border-color: #000000;
+  border-width: 7px;
+  border-style: solid;
+  background-color: #D8D8D8; /*#D8D8D8*/
+}
 
 .fab{
   font-size: 45px;
@@ -670,14 +675,26 @@ img#callofduty{
 
 
 
+.top-padrao {
+  background-color: #2E2E2E;
+  padding: 15px 20px;
+  border-radius: 7px 7px 0 0;
+
+
+}
+
   .top-padrao {
       padding: 15px 10px;
   }
-  .tt-padrao {
-  font: 25px 'gothBold';
-  color: #fff;
+
+
+.tt-padrao {
+  font: 30px 'gothBold';
+  color: white;
   display: block;
+
 }
+
 .full-hidden {
   width: 100%;
   overflow: hidden;
@@ -685,18 +702,71 @@ img#callofduty{
 .listagem-episodios {
   margin: 30px 0 7px;
 }
+
+.listagem-episodios.top{
+  margin: 0px 0 7px;
+}
+
+.listagem-episodios .top-padrao{
+  background-color: #2E2E2E;
+  text-align: center;
+  padding:21px;
+}
+
+.listagem-episodios .tt-padrao {
+  background-color: #2E2E2E;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font: 30px 'gothBold';
+
+
+}
+
+.listagem-episodios > .content {
+  padding: 10px;
+  background-color: #151719;
+  border-radius: 0 0 7px 7px;
+}
+
 .listagem-episodios.comentarios {
   margin-top: 30px;
+}
+
+.comentarios {
+  margin-top: 30px;
+  margin-left:40px;
+  margin-right: 40px;
+
 }
 .pgn-single-episodio{
   margin-top: 15px;
   margin-bottom: 30px;
 }
+  .col-right.pgn-single-episodio {
+    margin: 0;
+    text-align: center;
+  }
+
+  .left {
+  float:left;
+}
+  .box-filtro.left {
+    margin: 0 0 10px;
+  }
+
   .visible-lg,
+  .hidden-sm,
+  .lista-qualidade,
+  .lista-servers,
+  .lista-qualidade.pgn-interna-episodio,
+  .lista-servers.pgn-interna-episodio {
+    display: none !important;
+  }
+    .visible-lg,
   .hidden-md {
     display: none !important;
   }
-
 
 #legenda{
 	background-color: red;
