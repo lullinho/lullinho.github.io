@@ -313,6 +313,15 @@ essa
 	min-width: 90px;
 }
 
+.navBody:hover{
+  display:flex;
+  margin-left: 2px;
+  min-width: 90px;
+  color:red;
+  font-size: 17px;
+}
+
+
 .navbar-default {
     background-color: #F8F8F8;
     border-color: #E7E7E7;
@@ -328,6 +337,7 @@ Tamanho e edição dos carrosels, como usei id, tem q fazer pra cada carrosel, c
 	margin: 0px;
 
 }
+
 #carrossel{
 width: 90%;
 margin: auto;
@@ -844,6 +854,7 @@ height: 10px;
 
 
     }
+
     .display-6, .display-4{
       font-size: 28px;
     }
