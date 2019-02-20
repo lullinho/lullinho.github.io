@@ -739,7 +739,8 @@ img#callofduty{
 
 }
 .comentarios1{
-  margin-left: 5px;
+  margin-left: 13px;
+  margin-right: 13px;
 }
 .pgn-single-episodio{
   margin-top: 15px;
@@ -777,4 +778,11 @@ img#callofduty{
 	background-color: black;
 }
 
+#direitos{
+  color: white;
+}
+
+.fb-comments{
+  color: white;
+}
 
