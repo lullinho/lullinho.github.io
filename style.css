@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .container {
       padding:0;
       margin:0;
@@ -13,14 +13,14 @@ height: 10px;
 }
 
 .comentarios {
-  margin-top: 2px;
-  margin-left:2px;
-  margin-right: 2px;
+  margin-top: -15px;
+  margin-left:-15px;
+  margin-right: -15px;
 
 }
 .comentarios1{
-  margin-left: 1px;
-  margin-right: 1px;
+  margin-left: -15px;
+  margin-right: -15px;
   
 }
 
