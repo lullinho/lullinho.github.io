@@ -768,6 +768,21 @@ img#callofduty{
 
   .left {
   float:left;
+  text-align: left;
+}
+.di{
+
+  margin-top: 90px;
+}
+.di2{
+  margin-top: 70px;
+  
+
+}
+
+  .right {
+  float:right;
+  text-align: right;
 }
   .box-filtro.left {
     margin: 0 0 10px;
@@ -799,3 +814,26 @@ img#callofduty{
 
 
 
+
+#rodape4 {
+  background-color: #202326;
+  border-top: 1px solid #202326;
+  padding: -50px 0;
+}
+#rodape4 p{
+  color: #fff;
+}
+#rodape4 {
+    text-align: center;
+  }
+
+  #rodape4 p,
+  #rodape4 address {
+    float: none;
+  }
+
+  .container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
