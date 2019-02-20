@@ -206,7 +206,10 @@ height: 100%;
   margin-right:10px;
   margin-left: 10px;
 }
-
+#imgPagamento:hover{
+  background-color: white;
+  padding: 2px;
+}
 
 /* MENU do unlock all, dropdown menu que aparece opcoes da NAVBAR bootstrap*/
 .dropdown-menu {
@@ -309,8 +312,11 @@ height: 100%;
   border-color: #000000;
   border-width: 4px;
   border-style: solid;
-  background-color: #D8D8D8; /*#D8D8D8*/
+  background-color: #DAF7A6;
+  background-color: #D0D3D4;
+  background-color: #EBDEF0;
 }
+
 
 .fab{
   font-size: 20px;
