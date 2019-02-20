@@ -797,6 +797,18 @@ height: 10px;
   align-content: center;
   align-self: center;
 }
+.listagem-episodios .tt-padrao {
+  background-color: #2E2E2E;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font: 22px  bold;
+  border-radius: 15px 50px 30px 5px;
+
+
+
+
+}
 
 
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
