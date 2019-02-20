@@ -319,7 +319,7 @@ height: 100%;
 
 
 .fab{
-  font-size: 20px;
+  font-size: 30px;
   opacity: 0.6;
   margin-left: 1px;
   margin-right:1px;
@@ -336,7 +336,7 @@ height: 100%;
 
 .fab:hover {
     opacity: 0.7;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 
@@ -742,7 +742,7 @@ img#callofduty{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font: 25px 'gothBold';
+  font: 30px 'gothBold';
 
 
 }
