@@ -791,7 +791,11 @@ height: 10px;
 
 
 .logomobile{
-  font-size: 15px;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
 }
 
 
