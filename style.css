@@ -669,6 +669,35 @@ img#callofduty{
 }
 
 
+
+  .top-padrao {
+      padding: 15px 10px;
+  }
+  .tt-padrao {
+  font: 25px 'gothBold';
+  color: #fff;
+  display: block;
+}
+.full-hidden {
+  width: 100%;
+  overflow: hidden;
+}
+.listagem-episodios {
+  margin: 30px 0 7px;
+}
+.listagem-episodios.comentarios {
+  margin-top: 30px;
+}
+.pgn-single-episodio{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+  .visible-lg,
+  .hidden-md {
+    display: none !important;
+  }
+
+
 #legenda{
 	background-color: red;
 }
