@@ -868,5 +868,21 @@ height: 10px;
     font-size: 13px;
   }
 
+  .navBody{
+  display:flex;
+  margin-left: 2px;
+  min-width: 90px;
+  color:red;
+  font-size: 14px;
+}
+
+  .navBody:hover{
+  display:flex;
+  margin-left: 2px;
+  min-width: 90px;
+  color:red;
+  font-size: 15px;
+}
+
 
 }
