@@ -19,9 +19,7 @@ function trocarTexto() {
 
 
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
+
 /*var button = document.getElementsByTagName("button")[14];
 
 button.addEventListener("mouseenter", function(){
@@ -89,29 +87,3 @@ pagamentos.innerHTML = htmlPagamentos;
 
 
 
-
-/*
-
-GERADOR DE COR DE FUNDO, BACKGROUND
-
-*/
-var css = document.querySelector("h5");
-var cor1 = document.getElementById("cor1");
-var cor2 = document.getElementById("cor2");
-var body = document.getElementById("gradient");
-
-
-function setGradient(){
-
-	console.log(cor1.value);
-	body.style.background =
-	"linear-gradient(to right, "+
-	cor1.value +
-	", " + cor2.value + ")";
-
-	console.log("Código da cor: "+ body.style.background + ";");
-
-}
-
-cor1.addEventListener("input", setGradient);
-cor2.addEventListener("input", setGradient);

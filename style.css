@@ -608,6 +608,10 @@ h1, h4 {
 	font-size: 30px;
 }
 
+.corLink{
+  color:#0572e7 ;
+}
+
 .imgs{
 	height: 650px;
 	align-content: center;
@@ -617,6 +621,23 @@ h1, h4 {
 #listaPla{
   color: white;
 
+}
+#myFooter{
+  background-color: #3c3d41;
+  background-color: blue;
+   background-color: #262626;
+   background-color: #2E2E2E;
+   padding-top: 30px;
+  display: grid;
+
+}
+.icones{
+  font-size: :30px;
+  margin-top: -15px;
+  text-align: left;
+}
+#listaFooter{
+  text-decoration: none;
 }
 .textoPag:hover{
   background-color: black;
