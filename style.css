@@ -626,6 +626,7 @@ h1, h4 {
 }
 #listaPla{
   color: white;
+  display: grid;
 
 }
 #myFooter{
@@ -705,11 +706,7 @@ img#callofduty{
   border-radius: 0px 0px 15px 15px;
   border: dotted #696969 1px;
   border-block-end-color: transparent;
-  border-inline-end-color: red;
-  border-inline-start-color: red;
-  border-bottom-color: blue;
-  border-top-color: blue;
-
+ 
 
 
 }
@@ -803,7 +800,7 @@ img#callofduty{
 @media (max-width: 800px) {
     .container {
       padding:0;
-      margin:0;
+      margin-left:5px;
     }
 
     #fotoconta{
