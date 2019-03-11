@@ -627,6 +627,7 @@ h1, h4 {
 #listaPla{
   color: white;
   display: grid;
+  margin-bottom: 2px;
 
 }
 #myFooter{
