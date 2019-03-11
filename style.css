@@ -266,6 +266,9 @@ table{
 .pagamento{
 	list-style-position: inside;
 }
+.pagamentoMP{
+  padding-bottom: 8px;
+}
 
 .jumbPlatina{
 	display: block;
@@ -402,6 +405,9 @@ margin: 0px;
 
 }
 
+.dia{
+  display: inline-block;
+}
 .imypst{
   padding: 5;
   margin: 10;
@@ -698,6 +704,12 @@ img#callofduty{
   padding:21px;
   border-radius: 0px 0px 15px 15px;
   border: dotted #696969 1px;
+  border-block-end-color: transparent;
+  border-inline-end-color: red;
+  border-inline-start-color: red;
+  border-bottom-color: blue;
+  border-top-color: blue;
+
 
 
 }
